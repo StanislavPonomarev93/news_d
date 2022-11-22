@@ -6,6 +6,10 @@
   "type": "module",
   "author": "",
   "license": "ISC",
+  "homepage": ".",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
     "browser-sync": "^2.27.9",
     "del": "^6.0.0",

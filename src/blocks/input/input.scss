@@ -1,0 +1,32 @@
+.input {
+  padding: 0 0.9rem;
+  font-size: 1.11rem;
+
+  //width
+  &_width {
+    &1 {
+      width: 62.56rem;
+    }
+  }
+
+  //border
+  &_border {
+    &1 {
+      border-width: 1px 0 1px 1px;
+      border-style: solid;
+      border-color: var(--color2);
+    }
+  }
+
+  &::placeholder {
+    font-style: italic;
+    font-size: 1.11rem;
+  }
+
+  &:focus-visible {
+    outline: none;
+    border-width: 1px 0 1px 1px;
+    border-style: solid;
+    border-color: var(--color1);
+  }
+}

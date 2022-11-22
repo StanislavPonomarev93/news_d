@@ -1,0 +1,9 @@
+.strong {
+  font-weight: 700;
+
+  &_color {
+    &1 {
+      color: var(--color1);
+    }
+  }
+}

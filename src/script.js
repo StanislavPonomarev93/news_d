@@ -19,12 +19,13 @@ const swiper1 = new Swiper('.swiper1', {
 });
 
 const calcNews = () => {
+  const wrapperWidth = document.querySelector('.wrapper').offsetWidth;
   const containerLandmark = document.querySelector('.container-landmark').offsetHeight;
   const containerMainNews = document.querySelector('.container-main-news');
   let containerNews = containerMainNews.querySelectorAll('.container-news');
   containerMainNews.classList.remove('container_display-none');
 
-  while (containerMainNews.offsetHeight + 555 > containerLandmark) {
+  while (containerMainNews.offsetHeight + (wrapperWidth / 100 * 45) > containerLandmark) {
     containerNews[containerNews.length - 1].remove();
     containerNews = containerMainNews.querySelectorAll('.container-news');
   }

@@ -31,6 +31,11 @@
     content: "\2190";
   }
 
+  //стрелка вправо без горизонтальной линии
+  &7::before {
+    content: "\203A";
+  }
+
   &_color {
     &1 {
       color: var(--color1);
@@ -52,6 +57,9 @@
       }
       &2 {
         font-size: 1.4rem;
+      }
+      &3 {
+        font-size: 1rem;
       }
     }
   }

@@ -89,7 +89,7 @@
       min-width: 10.41rem;
     }
     &5 {
-      width: 20rem;
+      width: 19.5rem;
     }
     &6 {
       width: 43.7rem;
@@ -128,10 +128,10 @@
 
   &_padding {
     &1 {
-      padding: 2.9rem 1.66rem 2.8rem 0;
+      padding: 2.9rem 1.66rem 2.9rem 0;
     }
     &2 {
-      padding: 1.7rem 1.45rem;
+      padding: 1.5rem 1.45rem 0;
     }
     &3 {
       padding: 2.4rem 0 2rem;
@@ -155,10 +155,19 @@
       padding: 0 1rem;
     }
     &10 {
-      padding: 1.66rem 1.8rem;
+      padding: 0.97rem 1.45rem 0.83rem;
     }
     &11 {
       padding: 0 0 3.4rem;
+    }
+    &12 {
+      padding: 2.9rem 0;
+    }
+    &13 {
+      padding: 1.1rem 0 3rem;
+    }
+    &14 {
+      padding: 1.1rem 1.45rem 3rem;
     }
   }
 
@@ -187,6 +196,11 @@
       border-style: solid;
       border-color: var(--color2);
     }
+    &7 {
+      border-width: 1px 0;
+      border-style: solid;
+      border-color: var(--color2);
+    }
   }
 
   &_background {
@@ -196,6 +210,9 @@
       }
       &2 {
         background-color: var(--color1);
+      }
+      &3 {
+        background-color: var(--color9);
       }
     }
     &_background-image {

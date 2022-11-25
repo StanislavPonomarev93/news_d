@@ -62,6 +62,9 @@
     &2 {
       line-height: 1.6;
     }
+    &3 {
+      line-height: 1.9;
+    }
   }
 
   &_margin {
@@ -160,6 +163,9 @@
       max-height: 6rem;
       overflow-y: hidden;
     }
+    &4 {
+      height: 1.6rem;
+    }
   }
 
   &_background {
@@ -182,6 +188,14 @@
   &_text-align {
     &_center {
       text-align: center;
+    }
+  }
+
+  &_flex {
+    &1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 

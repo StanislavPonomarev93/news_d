@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "DINPro";
-  src: url("fonts/DINPro.woff2") format("woff2");
+  src: url("fonts/DINPro.woff2") format("woff2"), url("fonts/DINPro.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: "DINPro";
-  src: url("fonts/DINPro-Medium.woff2") format("woff2");
+  src: url("fonts/DINPro-Medium2.woff2") format("woff2"), url("fonts/DINPro-Medium2.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -123,6 +123,7 @@ button:focus {
   --color7: rgba(0, 0, 0, 0.9);
   --color8: rgba(0, 0, 0, 0.7);
   --color9: #0660e4;
+  --color10: #000;
 }
 
 html {

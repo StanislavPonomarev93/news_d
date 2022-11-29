@@ -18,6 +18,9 @@
     &_space-evenly {
       justify-content: space-evenly;
     }
+    &_flex-end {
+      justify-content: flex-end;
+    }
   }
 
   &_align-items {
@@ -44,6 +47,9 @@
   &_row-gap {
     &1 {
       row-gap: 1.2rem;
+    }
+    &2 {
+      row-gap: 1.66rem;
     }
   }
 
@@ -93,6 +99,7 @@
     }
     &6 {
       width: 43.7rem;
+      flex-shrink: 0;
     }
     &7 {
       width: 23.4rem;
@@ -127,6 +134,9 @@
     &6 {
       margin: 1.94rem 0 0;
     }
+    &7 {
+      margin: auto 0 0;
+    }
   }
 
   &_padding {
@@ -152,7 +162,7 @@
       padding: 2.3rem 1.66rem 0;
     }
     &8 {
-      padding: 0 0 4.16rem;
+      padding: 0 0 3.19rem;
     }
     &9 {
       padding: 0 1rem;
@@ -167,7 +177,7 @@
       padding: 2.9rem 0;
     }
     &13 {
-      padding: 1.1rem 0 3rem;
+      padding: 2rem 0 1.8rem;
     }
   }
 
@@ -200,6 +210,14 @@
       border-width: 1px 0;
       border-style: solid;
       border-color: var(--color2);
+    }
+    &8 {
+      border-width: 0 1px 1px 1px;
+      border-style: solid;
+      border-color: var(--color2);
+    }
+    &9 {
+      border-top: 1px solid var(--color2);
     }
   }
 

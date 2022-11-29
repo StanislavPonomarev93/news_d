@@ -19,16 +19,19 @@ const swiper1 = new Swiper('.swiper1', {
 });
 
 const calcNews = () => {
-  const wrapperWidth = document.querySelector('.wrapper').offsetWidth;
-  const containerLandmark = document.querySelector('.container-landmark').offsetHeight;
+  const containerLandmark = document.querySelector('.container-landmark').clientHeight;
+  const containerAdaptive = document.querySelector('.container-adaptive');
   const containerMainNews = document.querySelector('.container-main-news');
   let containerNews = containerMainNews.querySelectorAll('.container-news');
   containerMainNews.classList.remove('container_display-none');
 
-  while (containerMainNews.offsetHeight + (wrapperWidth / 100 * 45) > containerLandmark) {
+  while (containerLandmark < containerAdaptive.clientHeight) {
     containerNews[containerNews.length - 1].remove();
     containerNews = containerMainNews.querySelectorAll('.container-news');
   }
 }
 
-calcNews();
+if (document.querySelector('.container-landmark')) {
+  calcNews();
+}
+

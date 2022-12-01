@@ -141,6 +141,7 @@ body {
   text-rendering: optimizeSpeed;
   scrollbar-width: thin;
   scrollbar-color: #cbcbcb #fff;
+  background-color: #f5f5f5;
 }
 
 body::-webkit-scrollbar {

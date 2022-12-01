@@ -1,7 +1,4 @@
-import Swiper, { Navigation, Pagination, EffectFade } from 'swiper';
-
 const swiper1 = new Swiper('.swiper1', {
-  modules: [Navigation, Pagination, EffectFade],
   pagination: {
     el: '.swiper-pagination',
     type: 'fraction'

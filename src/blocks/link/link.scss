@@ -127,6 +127,9 @@
     &5 {
       margin: 1.66rem 0 0;
     }
+    &6 {
+      margin: auto 0 0;
+    }
   }
 
   &_padding {
@@ -141,6 +144,12 @@
     }
     &4 {
       padding: 1.45rem 1.45rem 0;
+    }
+  }
+
+  &_letter-spacing {
+    &1 {
+      letter-spacing: 0.05em;
     }
   }
 

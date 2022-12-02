@@ -17,6 +17,15 @@
     &4 {
       margin: 0.3rem 0 0;
     }
+    &5 {
+      margin: 2rem 0 0;
+    }
+    &6 {
+      margin: 0 0 0 0.5rem;
+    }
+    &7 {
+      margin: 3.5rem 0 0;
+    }
   }
 
   &_size {
@@ -71,6 +80,9 @@
     &4 {
       width: 1rem;
     }
+    &5 {
+      width: 2rem;
+    }
   }
 
   &_height {
@@ -103,6 +115,9 @@
     }
     &10 {
       height: 11.78rem;
+    }
+    &11 {
+      height: 28.95rem;
     }
   }
 }

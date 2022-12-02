@@ -36,6 +36,13 @@
         font-weight: 700;
       }
     }
+
+    &-style {
+      &_Cambria-400 {
+        font-family: Cambria;
+        font-style: italic;
+      }
+     }
   }
 
   &_color {
@@ -68,6 +75,9 @@
     }
     &3 {
       line-height: 2.1;
+    }
+    &4 {
+      line-height: 1.23;
     }
   }
 
@@ -116,6 +126,12 @@
     }
     &15 {
       margin: 0 0 0 1.1rem;
+    }
+    &16 {
+      margin: 1.5rem 0 0;
+    }
+    &17 {
+      margin: -0.2rem 0 0;
     }
   }
 
@@ -233,4 +249,5 @@
       z-index: 10;
     }
   }
+
 }

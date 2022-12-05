@@ -1,0 +1,30 @@
+.articleBody {
+  &1 {
+    margin: 1.9rem 0 0;
+
+    & p {
+      font-size: 1.25rem;
+      line-height: 1.23;
+      margin: 0 0 1.5rem 0;
+    }
+
+    & blockquote {
+      position: relative;
+      padding: 0 0 0 2rem;
+      font-style: italic;
+      font-size: 1.25rem;
+      line-height: 1.23;
+      margin: 2.5rem 0;
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0.3rem;
+        bottom: 0.3rem;
+        left: 0;
+        width: 0.27rem;
+        background-color: var(--color1);
+      }
+    }
+  }
+}

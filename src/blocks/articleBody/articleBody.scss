@@ -26,5 +26,9 @@
         background-color: var(--color1);
       }
     }
+
+    & a {
+      color: var(--color1)
+    }
   }
 }

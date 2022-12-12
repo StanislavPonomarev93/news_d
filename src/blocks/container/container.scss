@@ -295,6 +295,9 @@
       &4 {
         background-color: var(--color11);
       }
+      &5 {
+        background: linear-gradient(to bottom, var(--color5) 50%, white 0%);
+      }
     }
     &-image {
       &1::after {

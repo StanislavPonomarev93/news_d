@@ -15,6 +15,23 @@ const swiper1 = new Swiper('.swiper1', {
   }
 });
 
+const swiper2 = new Swiper('.swiper2', {
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'fraction'
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  allowTouchMove: false,
+  spaceBetween: 10,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  }
+});
+
 const calcNews = () => {
   const containerLandmark = document.querySelector('.container-landmark').clientHeight;
   const containerAdaptive = document.querySelector('.container-adaptive');
@@ -32,3 +49,16 @@ if (document.querySelector('.container-landmark')) {
   calcNews();
 }
 
+const openSwiperBig = () => {
+  const swiperBig = document.querySelector('.swiper-big');
+  document.querySelector('.open-swiper-big').addEventListener('click', () => {
+    swiperBig.classList.remove('container_display-none');
+  });
+  document.querySelector('.close-swiper-big').addEventListener('click', () => {
+    swiperBig.classList.add('container_display-none');
+  })
+}
+
+if (document.querySelector('.open-swiper-big')) {
+  openSwiperBig();
+}

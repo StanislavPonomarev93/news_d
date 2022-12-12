@@ -73,6 +73,14 @@
       width: 48.88rem;
       height: 32.7rem;
     }
+    &12 {
+      width: 1.4rem;
+      height: 1.4rem;
+    }
+    &13 {
+      width: 55.97rem;
+      height: 41.73rem;
+    }
   }
 
   &_width {
@@ -126,6 +134,28 @@
     }
     &11 {
       height: 28.95rem;
+    }
+  }
+
+  &_position {
+    &1 {
+      position: absolute;
+      left: 40.3rem;
+      top: 4.7rem;
+      z-index: 10;
+    }
+    &2 {
+      position: absolute;
+      top: 2.2rem;
+      left: 85rem;
+      z-index: 10;
+    }
+  }
+
+  &_hover {
+    &1:hover {
+      cursor: pointer;
+      transform: scale(1.1);
     }
   }
 }

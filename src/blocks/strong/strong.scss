@@ -6,4 +6,10 @@
       color: var(--color1);
     }
   }
+
+  &_margin {
+    &1 {
+      margin: 0 0.3rem;
+    }
+  }
 }

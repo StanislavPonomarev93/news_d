@@ -37,7 +37,6 @@ const swiper3 = new Swiper('.swiper3', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  allowTouchMove: false,
   spaceBetween: 10,
   effect: 'fade',
   fadeEffect: {
@@ -54,7 +53,6 @@ const swiper4 = new Swiper('.swiper4', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  allowTouchMove: false,
   spaceBetween: 10,
   effect: 'fade',
   fadeEffect: {
@@ -68,7 +66,6 @@ const swiper5 = new Swiper('.swiper5', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  allowTouchMove: false,
   spaceBetween: 10,
   effect: 'fade',
   fadeEffect: {

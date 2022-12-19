@@ -32,6 +32,48 @@ const swiper2 = new Swiper('.swiper2', {
   }
 });
 
+const swiper3 = new Swiper('.swiper3', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  spaceBetween: 10,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  }
+});
+
+const swiper4 = new Swiper('.swiper4', {
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets'
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  spaceBetween: 10,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  }
+});
+
+
+const swiper5 = new Swiper('.swiper5', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  spaceBetween: 10,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  }
+});
+
+
 const calcNews = () => {
   const containerLandmark = document.querySelector('.container-landmark').clientHeight;
   const containerAdaptive = document.querySelector('.container-adaptive');

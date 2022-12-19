@@ -7,3 +7,4 @@
 - [Фото внутри](https://stanislavponomarev93.github.io/news_d/photo_inside.html)
 - [Редакция](https://stanislavponomarev93.github.io/news_d/edition.html)
 - [Видео](https://stanislavponomarev93.github.io/news_d/video.html)
+- [Спецпроект](https://stanislavponomarev93.github.io/news_d/special_project.html)

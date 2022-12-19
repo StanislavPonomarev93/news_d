@@ -11,4 +11,19 @@
       color: var(--color4);
     }
   }
+
+  &_background {
+    &_color {
+      &1 {
+        background-color: var(--color1);
+      }
+    }
+  }
+
+  &_size {
+    &1 {
+      width: 11rem;
+      height: 0.2rem;
+    }
+  }
 }

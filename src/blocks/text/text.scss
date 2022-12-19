@@ -128,13 +128,16 @@
       margin: 0 0 0 1.1rem;
     }
     &16 {
-      margin: 1.5rem 0 0;
+      margin: 1.7rem 0 0;
     }
     &17 {
       margin: -0.2rem 0 0;
     }
     &18 {
       margin: 1.5rem 0 0;
+    }
+    &19 {
+      margin: 0 0 0 5.5rem;
     }
   }
 
@@ -171,6 +174,9 @@
     &2 {
       width: 20.97rem;
     }
+    &3 {
+      width: 6.7rem;
+    }
   }
 
   &_height {
@@ -195,6 +201,10 @@
     }
     &6 {
       max-height: 30.6rem;
+      overflow-y: hidden;
+    }
+    &7 {
+      max-height: 5rem;
       overflow-y: hidden;
     }
   }

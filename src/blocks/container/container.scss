@@ -48,6 +48,9 @@
     &5 {
       column-gap: 1.45rem;
     }
+    &6 {
+      column-gap: 3rem;
+    }
   }
 
   &_row-gap {
@@ -92,6 +95,11 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-gap: 1.66rem;
     }
+    &4 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1.13rem;
+    }
   }
 
   &_width {
@@ -130,6 +138,16 @@
     }
     &11 {
       width: 88.5rem;
+    }
+    &12 {
+      width: 75.62rem;
+    }
+    &13 {
+      width: 63rem;
+    }
+    &14 {
+      width: 36.31rem;
+      flex-shrink: 0;
     }
   }
 
@@ -184,6 +202,30 @@
     }
     &14 {
       margin: 2.2rem 0 0;
+    }
+    &15 {
+      margin: 0 -5.5rem;
+    }
+    &16 {
+      margin: 1.6rem auto 0;
+    }
+    &17 {
+      margin: 3rem auto 0;
+    }
+    &18 {
+      margin: 8rem auto 0;
+    }
+    &19 {
+      margin: 5.4rem auto 0;
+    }
+    &20 {
+      margin: 6.5rem -5.5rem 0;
+    }
+    &21 {
+      margin: 6.7rem auto 0;
+    }
+    &22 {
+      margin: 7.4rem auto 0;
     }
   }
 
@@ -244,6 +286,12 @@
     }
     &19 {
       padding: 5.4rem 0 0;
+    }
+    &20 {
+      padding: 0 0 7rem;
+    }
+    &21 {
+      padding: 2.2rem 3.7rem 4.5rem;
     }
   }
 
@@ -310,6 +358,18 @@
       &6 {
         background-color: var(--color5);
       }
+      &7 {
+        background: linear-gradient(to bottom,#fff 25rem,var(--color12) 0);
+      }
+      &8 {
+        background-color: var(--color13);
+      }
+      &9 {
+        background: linear-gradient(to bottom,#fff 27.4rem,var(--color12) 0);
+      }
+      &10 {
+        background-color: var(--color12);
+      }
     }
     &-image {
       &1::after {
@@ -330,6 +390,16 @@
         background-image: url(img/icon/ic4.svg);
         background-repeat: no-repeat;
         background-size: 2.7rem;
+        background-position: center;
+      }
+      &3::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url(img/icon/ic4.svg);
+        background-repeat: no-repeat;
+        background-size: 4.7rem;
         background-position: center;
       }
     }

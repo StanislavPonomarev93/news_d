@@ -112,3 +112,9 @@ if (document.querySelector('.open-social-network')) {
     })
   })
 }
+
+document.querySelectorAll('img').forEach(el => {
+  if (el.getAttribute('src') === '') {
+    el.src = 'img/plug.webp';
+  }
+})

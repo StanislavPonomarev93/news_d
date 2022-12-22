@@ -3,7 +3,7 @@
   flex-direction: column;
   position: relative;
 
-  &_display-none {
+  &_display-none.container_display-none {
     display: none;
   }
 
@@ -100,6 +100,10 @@
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 1.13rem;
     }
+    &5 {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+    }
   }
 
   &_width {
@@ -148,6 +152,9 @@
     &14 {
       width: 36.31rem;
       flex-shrink: 0;
+    }
+    &15 {
+      width: 66rem;
     }
   }
 
@@ -227,6 +234,15 @@
     &22 {
       margin: 7.4rem auto 0;
     }
+    &23 {
+      margin: 1rem 0 -1rem;
+    }
+    &24 {
+      margin: 4rem auto 0;
+    }
+    &25 {
+      margin: 4rem 0 0;
+    }
   }
 
   &_padding {
@@ -292,6 +308,9 @@
     }
     &21 {
       padding: 2.2rem 3.7rem 4.5rem;
+    }
+    &22 {
+      padding: 0.83rem 0;
     }
   }
 

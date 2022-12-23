@@ -9,3 +9,4 @@
 - [Видео](https://stanislavponomarev93.github.io/news_d/video.html)
 - [Спецпроект](https://stanislavponomarev93.github.io/news_d/special_project.html)
 - [Автор](https://stanislavponomarev93.github.io/news_d/author.html)
+- [Результат поиска](https://stanislavponomarev93.github.io/news_d/search_result.html)

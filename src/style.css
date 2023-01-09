@@ -127,6 +127,7 @@ button:focus {
   --color11: #393b40;
   --color12: #f0f0f0;
   --color13: #5d6065;
+  --color14: rgba(70, 73, 79, 0.3);
 }
 
 html {
